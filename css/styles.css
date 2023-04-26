@@ -1,0 +1,156 @@
+/*Lap1 Nasser Bandar Alshehri 2040209*/
+body     { font-family: Verdana, serif; ;color: #000000;background-color: #F5F5F5; }
+header {background-color: #ccaa66;
+    text-align: center;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+.r1{
+    display: flex;
+}
+
+#leftcolumn {
+    width: 400px;
+    height: fit-content;
+    background-color: #ffffff ;
+    background-image: url("../imgs/img.png");
+    background-repeat: no-repeat;
+    background-size: 500px 150px;
+    box-shadow: 1px 1px 10px #535353;
+    border-radius: 10px;
+    margin-top:20px ;
+    padding-bottom: 31px;
+    
+}
+
+#nem {
+    color: #ffffff;
+    font-size: 35px;
+    padding-left:20px;
+    
+}
+
+#eml{
+    padding-top: 20px;
+    
+    
+}
+
+.ic{
+    position: relative; 
+    top: 10px;
+    padding-left:20px;
+    padding-right:10px;
+}
+.flc{
+    position: relative; 
+    top: 20px;
+    padding-left:20px;
+    padding-right:10px;
+}
+.kt{
+    margin-top: 30px;
+    width :320px;
+    
+}
+
+.luc{
+    padding-left: 50px;
+    padding-top: 20px;
+    
+}
+
+
+
+#rightcolumn1 {
+    width: fit-content;
+    height: fit-content;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #535353;
+    border-radius: 10px;
+    margin-left: 15px; 
+    padding-right: 15px ;
+    padding-bottom: 15px ;
+    
+}
+
+.fc1{
+    position: relative; 
+    top: 20px;
+    padding-left:20px;
+    padding-right:10px;
+    
+}
+
+#rightcolumn2{
+    width: 650px;
+    height: fit-content;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #535353;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top:20px ;
+    
+}
+.prc{
+    padding-left: 20px ;
+    padding-top: 5px ;
+    padding-right:20px ;
+    padding-bottom:4px ;
+}
+
+
+#rightcolumn3{
+    width: 1095px;
+    height: fit-content;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #535353;
+    border-radius: 10px;
+    margin-left: 15px;
+    position: absolute;
+    margin-top:15px ;
+    margin-right: 10px;
+}
+#prc1{
+    padding-left: 20px ;
+    padding-top: 5px ;
+    padding-right:20px ;
+    padding-bottom:4px ;
+}
+#luc1{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .r1 {
+      display: block;
+    }
+    #leftcolumn {
+        margin-left: 15px;
+        padding-bottom: 5px;
+        width:445px;
+    }
+    #nem {
+        padding-top:20px;
+    }
+    #rightcolumn1{
+        width:435px;
+    }
+    #rightcolumn3 {
+        margin-top:500px ;
+        width:450px;
+    }
+    #rightcolumn2{
+        width:450px;
+        padding-bottom: 10px;
+    }
+    #luc1{
+        width: 300px;
+    
+    }
+  }
